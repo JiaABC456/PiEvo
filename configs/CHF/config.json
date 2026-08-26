@@ -1,0 +1,20 @@
+{
+    "N": 50,
+    "POPULATION_SIZE": 50,
+    "MAX_GENERATIONS": 50,
+    "C_NUM": 4,
+    "DIM_MATRIX": [
+        [0,  0,  1,  1, 0,  0, 0,    0,  1],
+        [1,  1, -1, -2, 0,  2, 0,    1,  0],
+        [0,  0, -2, -1, 0, -2, 0,   -2, -3],
+        [0,  0,  0,  0, 0,  0, 1,    0,  0]
+    ],
+    "DATA_PATH": "chf_public.csv",
+    "lower_bound": -10,
+    "upper_bound": 10,
+    "FUNCTION": "handle_CHF_data",
+
+    "NUM_INPUT": 3,
+    "estimator": "kraskov",
+    "estimator_params": {"k": 8}
+}
