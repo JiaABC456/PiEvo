@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-01-13T13:16:54.988255",
+  "suggested_dominant_count": 1,
+  "method": "SIR",
+  "note": "This value should be used as num_linear in optimization_discovery module",
+  "sir_details": {
+    "suggested_count": 1,
+    "explained_variance": [
+      0.9870651598972927,
+      0.008420786803524344,
+      0.00451405329918302
+    ],
+    "cumulative_variance": [
+      0.9870651598972927,
+      0.995485946700817,
+      1.0
+    ]
+  }
+}
