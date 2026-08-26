@@ -1,0 +1,19 @@
+{
+    "POPULATION_SIZE": 50,
+    "MAX_GENERATIONS": 100,
+    "C_NUM": 2,
+    "DIM_MATRIX": [
+        [1, 1, -3, 0, 0, -1, 1, 2, 1, 1, 0, 0],
+        [0, -1, 0, 0, 0, -1, -3, -2, 0, 0, 0, 0],
+        [0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, -1, -1, 0, 0, 0, 0]
+    ],
+    "DATA_PATH": "dataset-GS1-GS10.txt",
+    "lower_bound": -2,
+    "upper_bound": 2,
+    "FUNCTION": "handle_Wall_model",
+
+    "NUM_INPUT": 2,
+    "estimator": "binning",
+    "estimator_params": {"num_bins": 20}
+}
