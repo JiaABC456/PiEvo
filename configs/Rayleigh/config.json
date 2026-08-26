@@ -1,0 +1,16 @@
+{
+    "POPULATION_SIZE": 50,
+    "MAX_GENERATIONS": 50,
+    "C_NUM": 2,
+    "DIM_MATRIX": [
+        [1, 2, 1, 0, 0], 
+        [0, -1, -1, 1, 0] 
+    ],
+    "DATA_PATH": "rayleigh_data.csv",
+    "lower_bound": -2,
+    "upper_bound": 2,
+    "FUNCTION": "handle_rayleigh_data",
+
+    "estimator": "binning",
+    "estimator_params": {"num_bins": 50}
+}
