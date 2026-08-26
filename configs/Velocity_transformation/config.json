@@ -1,0 +1,17 @@
+{
+    "POPULATION_SIZE": 50,
+    "MAX_GENERATIONS": 50,
+    "C_NUM": 3,
+    "DIM_MATRIX": [
+        [1, -3, -1, -3, -1,  1, 0],
+        [0,  0, -1,  0, -1, -1, 0],
+        [0,  1,  1,  1,  1,  0, 0]
+    ],
+    "DATA_PATH": "mat/inv_transf.mat",
+    "lower_bound": -2,
+    "upper_bound": 2,
+    "FUNCTION": "handle_velocity_trans_data",
+
+    "estimator": "binning",
+    "estimator_params": {"num_bins": 40}
+}
